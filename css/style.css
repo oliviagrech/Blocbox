@@ -74,7 +74,7 @@ html, body{
  header {
    color:#FFFFFF;
    background: #34495E;
-   background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
+   background-image: linear-gradient(206deg, #083551 0%, #34495E 94%);
  }
  header nav {
    padding:1em 0;
@@ -305,4 +305,73 @@ html, body{
 
  .one-fourth.staggered  {
    margin-top: 20px; 
+ }
+
+
+/* SIGNUP */
+.signup {
+   background-color: : #083551;
+   background-image: linear-gradient(-45deg, #083551 0%, #34495E 94%);
+   background-size:cover;
+   text-align: center;
+   padding:6em 0;
+ }
+ .signup h2 {
+   color:#FFFFFF;
+ }
+.signup p {
+   color:#FFFFFF;
+   margin:10px 0 40px;
+ }
+ 
+
+ /* FOOTER */
+ footer {
+   background-color: #041e29;
+   background-color: : #041e29;
+   background-image: linear-gradient(206deg, #083551 0%, #34495E 94%);
+   color: #FFFFFF;
+   height: 150px;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+ }
+ footer p, footer nav ul {
+   font-size:14px;
+   font-weight:100;
+   text-align: center;
+   margin: 10px auto 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ footer .right-footer-block {
+   background-color: transparent;
+   text-align: left;
+
+ }
+ footer .logo{
+   padding: 2.35em 0;
+   margin: 0 auto;
+   display: block;
+ }
+
+ @media (min-width: 992px){
+   footer{
+      background-color: : #041e29;
+      background-image: linear-gradient(206deg, #083551 0%, #34495E 94%);
+      height: 100px;
+   }
+   footer p, footer nav ul{
+     padding: 2em 0;
+     text-align: center;
+   }
+   footer .logo{
+     padding: 2em 0 2em 1.5em;
+   }
  }
