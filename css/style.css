@@ -18,8 +18,6 @@ html, body{
    line-height: 19px;
    font-weight: 100;
    text-align: center;
-   padding-left: 10%;
-   padding-right: 10%;
  }
 
  /* GRID */
@@ -101,6 +99,11 @@ html, body{
  header .hero img {
    display: block;
    margin:3em auto 0;
+ }
+
+ .subheading {
+   padding-left: 10%;
+   padding-right: 10%;
  }
 /* BUTTONS */
  .btn {
@@ -421,6 +424,9 @@ html, body{
    font-size: 12px;
    color: #E2E2E2;
    line-height: 15px;
+   text-align: left;
+   padding-left: 0%;
+   padding-right: 0%;
  }
  .left-nav .items ul {
    margin:0 0 40px;
@@ -439,9 +445,9 @@ html, body{
    width:16px;
    text-align: center;
    margin-right:8px;
-}
+ }
 
-   /* LEFT NAVBAR SETTINGS */
+  /* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
    position:absolute;
    background:#22303E;
@@ -474,7 +480,7 @@ html, body{
    margin-top:8px;
  }
 
-/* CONTENT */
+ /* CONTENT */
  .content {
    padding:6em 1% 1.5em;
    float:right;
@@ -513,7 +519,7 @@ html, body{
    padding:20px;
  }
 
-/* Larger Mobile Devices */
+ /* Larger Mobile Devices */
  @media (min-width:460px) {
    .content {
      padding:1.5em 1%;
@@ -560,3 +566,39 @@ html, body{
      margin:0 1% 25px;
    }
  }
+
+ .item-box > img {
+   position:absolute;
+   height:100%;
+   width:auto;
+   top:0;
+   left:0;
+   right:0;
+ }
+ .item-box h2 {
+   font-family: 'Lato', Helvetica, Arial, sans-serif;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 17px;
+   margin:0;
+ }
+ .item-box h2 a {
+   color: #3498DB;
+   text-decoration: none;
+ }
+ .item-box h2 img {
+   width:16px;
+   height:16px;
+   position:relative;
+   top:2px;
+   margin-right:5px;
+ }
+ .item-box p {
+   font-size: 14px;
+   color: #333333;
+   line-height: 18px;
+   margin:5px 0 0;
+ }
+
+ 
+ 
