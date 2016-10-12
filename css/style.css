@@ -601,4 +601,8 @@ html, body{
  }
 
  
- 
+ .left-nav .items .active {
+   color: #34495E;
+   font-weight: 700;
+   background-color: #FFFFFF;
+}
