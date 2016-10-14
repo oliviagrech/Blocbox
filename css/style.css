@@ -402,6 +402,7 @@ html, body{
  .left-nav {
    height: 100%;
    width:280px;
+   color:#FFFFFF;
    position: absolute;
    -webkit-transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;
@@ -486,7 +487,8 @@ html, body{
    left:0;
    right:0;
    padding:10px 0;
- }
+}
+
  .left-nav .settings img {
    height:35px;
    width:35px;
@@ -506,9 +508,9 @@ html, body{
    text-decoration: none;
    text-align: right;
    float: right;
-   padding-bottom: 10px;
-   margin-top:5px;
- }
+   margin-right:10px;
+   margin-top:8px;
+}
 
  
  /* CONTENT */
