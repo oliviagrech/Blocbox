@@ -42,7 +42,7 @@
       <div class="settings">
         <img src="images/avatar.jpg">
         <p>Joey Kirk</p>
-        <ul class="menuup">
+        <ul class="settings-btn dropit-inverse">
           <li>
             <a href="#"><i class="fa fa-cog"></i></a>
             <ul>
@@ -59,7 +59,7 @@
         <div class="container">
           <div class="header">
             <h1>All Items</h1>
-            <ul class="menu">
+            <ul class="dropdown-btn">
               <li>
                 <a href="#" class="btn">+ Add</a>
                 <ul>
@@ -139,8 +139,8 @@
     <script src="js/dropit.js"></script>
     <script src="js/expandit.js"></script>
     <script type="text/javascript">
-     $(".menu").dropit();
-     $(".menuup").expandit();
+     $(".dropdown-btn").dropit();
+     $(".settings-btn").dropit();
       $("#menu").click(function() {
          $("#left-nav").toggleClass("open", 200);
      });
